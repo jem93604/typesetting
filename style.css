@@ -78,12 +78,15 @@ a:hover{
 
 
 .menu{
-    border: .5px solid #000000;
+    border: 6px solid #a66;
     list-style: none;
-    margin: 10px;
-    height: 1px;
-    padding: 3em;
+    margin: 17px;
+    height: 15px;
+    padding: 25px;
     text-align: center;
     align-items: center;
+    text-align:center ;
+    text-anchor: middle;
+
 
 }
