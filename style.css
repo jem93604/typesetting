@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     font-size: 10px;
+    font-family: "JetBrainsMonoNL NF";
 }
 
 body {
@@ -10,7 +11,7 @@ body {
     min-width: 1000px;
     max-width: 1400px;
     line-height: 15px;
-    font-family: Serif ;
+    font-family: "Serif"","DejaVu Serif";
 
 }
 header{
@@ -22,7 +23,12 @@ header{
 section{
     text-indent: 20px;
 }
-
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
 /* Layout */
 
 section {
@@ -57,13 +63,27 @@ header, footer {
 
 /* WRITE YOUR CODE BELOW HERE */
 a:visited{
-    color: green;
+    color: purple;
 
 }
 a:focus{
-    color: purple;
+    color: green;
 
 }
 a:hover{
     color: black;
+    text-decoration: none;
+
+}
+
+
+.menu{
+    border: .5px solid #000000;
+    list-style: none;
+    margin: 10px;
+    height: 1px;
+    padding: 3em;
+    text-align: center;
+    align-items: center;
+
 }
